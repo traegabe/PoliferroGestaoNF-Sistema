@@ -1,0 +1,12 @@
+﻿<Application x:Class="PoliferroGestaoNF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <!-- Cores da Poliferro -->
+        <Color x:Key="AzulPoliferro">#1B3B6A</Color>
+        <SolidColorBrush x:Key="AzulPoliferroBrush" Color="#1B3B6A"/>
+        <SolidColorBrush x:Key="AzulClaroBrush" Color="#2B4B7A"/>
+        <SolidColorBrush x:Key="CinzaClaroBrush" Color="#F5F5F5"/>
+    </Application.Resources>
+</Application>

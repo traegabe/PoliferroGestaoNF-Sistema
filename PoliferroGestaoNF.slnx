@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PoliferroGestaoNF/PoliferroGestaoNF.csproj" />
+  <Project Path="SetupPoliferroGestaoNF/SetupPoliferroGestaoNF.vdproj" Type="Installer">
+    <Build />
+  </Project>
+</Solution>

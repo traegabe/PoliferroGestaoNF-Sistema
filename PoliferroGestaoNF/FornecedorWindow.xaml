@@ -1,0 +1,102 @@
+﻿<Window x:Class="PoliferroGestaoNF.FornecedorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gerenciar Fornecedores - Poliferro"
+        Height="450" Width="600"
+        WindowStartupLocation="CenterOwner"
+        Background="#F5F5F5">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- CABEÇALHO -->
+        <Border Grid.Row="0" Background="#1B3B6A" 
+                CornerRadius="5" Margin="0,0,0,10" Padding="10">
+            <TextBlock Text="GERENCIAR FORNECEDORES" 
+                       FontSize="16" FontWeight="Bold" 
+                       Foreground="White" HorizontalAlignment="Center"/>
+        </Border>
+
+        <!-- ÁREA PRINCIPAL -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- LISTA DE FORNECEDORES -->
+            <Border Grid.Column="0" Background="White" CornerRadius="5" 
+                    Padding="10" Margin="0,0,5,0" BorderBrush="#CCCCCC" BorderThickness="1">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Grid.Row="0" Text="FORNECEDORES CADASTRADOS" 
+                               FontWeight="Bold" Foreground="#1B3B6A"
+                               Margin="0,0,0,10"/>
+
+                    <ListBox x:Name="lstFornecedores" Grid.Row="1"/>
+                </Grid>
+            </Border>
+
+            <!-- BOTÕES DE AÇÃO -->
+            <StackPanel Grid.Column="1" VerticalAlignment="Center" 
+                        Margin="5" Width="100">
+                <Button Content="ADICIONAR" 
+                        x:Name="btnAdicionar"
+                        Height="35" Margin="0,0,0,10"
+                        Background="#1B3B6A" Foreground="White"
+                        BorderThickness="0" Cursor="Hand"/>
+
+                <Button Content="REMOVER" 
+                        x:Name="btnRemover"
+                        Height="35" Margin="0,0,0,10"
+                        Background="Red" Foreground="White"
+                        BorderThickness="0" Cursor="Hand"/>
+
+                <Button Content="ATUALIZAR" 
+                        x:Name="btnAtualizar"
+                        Height="35" Margin="0,0,0,10"
+                        Background="Gray" Foreground="White"
+                        BorderThickness="0" Cursor="Hand"/>
+            </StackPanel>
+
+            <!-- CADASTRO DE NOVO FORNECEDOR -->
+            <Border Grid.Column="2" Background="White" CornerRadius="5" 
+                    Padding="10" Margin="5,0,0,0" BorderBrush="#CCCCCC" BorderThickness="1">
+                <StackPanel>
+                    <TextBlock Text="NOVO FORNECEDOR" 
+                               FontWeight="Bold" Foreground="#1B3B6A"
+                               Margin="0,0,0,15"/>
+
+                    <TextBlock Text="Nome do Fornecedor:" Margin="0,0,0,5"/>
+                    <TextBox x:Name="txtNovoFornecedor" 
+                             Height="30" Margin="0,0,0,10"/>
+
+                    <Button Content="CADASTRAR FORNECEDOR" 
+                            x:Name="btnCadastrar"
+                            Height="35" Margin="0,10,0,0"
+                            Background="#1B3B6A" Foreground="White"
+                            BorderThickness="0" Cursor="Hand"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- RODAPÉ -->
+        <Border Grid.Row="2" Background="#1B3B6A" 
+                CornerRadius="5" Margin="0,10,0,0" Padding="5">
+            <Button Content="FECHAR" 
+                    x:Name="btnFechar"
+                    Width="100" Height="30"
+                    Background="White" Foreground="#1B3B6A"
+                    BorderThickness="0" Cursor="Hand"/>
+        </Border>
+    </Grid>
+</Window>
