@@ -9,13 +9,13 @@ Sistema desenvolvido para a empresa **Poliferro Comercial** com o objetivo de ge
 ## 📸 Telas do Sistema
 
 ### 🏠 Tela Principal
-![Tela Principal](images/tela_principal.png)
+![Tela Principal](PoliferroGestaoNF/images/tela_principal.png)
 
 ### 📝 Cadastro de Fornecedores
-![Cadastro](images/cadastro.png)
+![Cadastro](PoliferroGestaoNF/images/cadastro.png)
 
 ### 🔍 Busca de Notas
-![Busca](images/busca.png)
+![Busca](PoliferroGestaoNF/images/busca.png)
 
 ---
 
