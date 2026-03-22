@@ -1,27 +1,68 @@
-# Sistema Poliferro Gestão NF
+# 🧾 Sistema Poliferro - Gestão de Notas Fiscais
 
-Sistema desktop desenvolvido em C# para controle de notas fiscais da empresa Poliferro.
+## 📌 Sobre o projeto
+
+Sistema desenvolvido para a empresa **Poliferro Comercial** com o objetivo de gerenciar notas fiscais de forma digital, substituindo processos manuais e melhorando a organização.
+
+---
+
+## 📸 Telas do Sistema
+
+### 🏠 Tela Principal
+![Tela Principal](images/tela_principal.png)
+
+### 📝 Cadastro de Fornecedores
+![Cadastro](images/cadastro.png)
+
+### 🔍 Busca de Notas
+![Busca](images/busca.png)
+
+---
 
 ## 🚀 Funcionalidades
 
-- Cadastro de fornecedores
-- Registro de notas fiscais
-- Busca de notas
-- Visualização de PDF
+* Cadastro de fornecedores  
+* Registro de notas fiscais  
+* Visualização de PDF das notas  
+* Controle interno de informações  
 
-## 🛠️ Tecnologias
+---
 
-- C#
-- WPF
-- .NET
-- WebView2
+## 🛠️ Tecnologias utilizadas
 
-## 💻 Como usar
+* C#  
+* WPF  
+* .NET  
+* WebView2  
 
-1. Baixe o instalador
-2. Execute o arquivo .exe
-3. Instale o sistema normalmente
+---
 
-## 📌 Autor
+## 💻 Como executar o projeto
 
-Gabriel Lopes
+1. Baixe o repositório  
+2. Abra no Visual Studio  
+3. Compile o projeto  
+4. Execute o sistema  
+
+---
+
+## 📦 Instalação
+
+O sistema possui instalador próprio:
+
+* Execute o arquivo `InstaladorPoliferro.exe`  
+* Siga os passos da instalação  
+
+---
+
+## ⚠️ Requisitos
+
+* Windows 10 ou superior  
+* WebView2 Runtime (instalado automaticamente)  
+
+---
+
+## 👨‍💻 Autor
+
+Gabriel Lopes  
+Desenvolvedor do sistema interno da Poliferro Comercial
